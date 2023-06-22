@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Mie Ayam Online</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Mie Ayam Online</h1>
+        <form>
+            <label for="nama">Nama :</label><br>
+            <input type="text" id="nama" name="nama"><br>
+            
+            <label for="alamat">Alamat :</label><br>
+            <input type="text" id="alamat" name="alamat"><br>
+
+            <label for="no_hp">No. HP :</label><br>
+            <input type="text" id="no_hp" name="no_hp"><br>
+
+            <label for="pilihan_mie">Pilihan Mie :</label><br>
+            <select id="pilihan_mie" name="pilihan_mie" onchange="pesanMieAyam()">
+                <option value="30000">Mie Ayam Bakso</option>
+                <option value="35000">Mie Ayam Bakso Pangsit</option>
+                <option value="30000">Mie Ayam Pangsit</option>
+                <option value="25000">Mie Ayam Pecel</option>
+            </select><br>
+
+            <label for="jumlah_porsi">Jumlah Porsi :</label><br>
+            <input type="number" id="jumlah_porsi" name="jumlah_porsi"><br>
+
+            <label for="keterangan">Keterangan :</label><br>
+            <textarea id="keterangan" name="keterangan"></textarea><br>
+
+            <input type="button" value="Pesan Sekarang"
+onclick="pesanMieAyam()"><br>
+        </form>
+
+
+
+<div id="hasil_pesan"></div>
+
+</body>
+</html>

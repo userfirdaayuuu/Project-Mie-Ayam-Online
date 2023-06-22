@@ -1,0 +1,61 @@
+body{
+    background-image: url("miayam.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+
+h1{
+	font-family: 'papyrus', fantasy;
+	color: #2c5e79;
+	font-size: 70px;
+	font-weight: 50;
+	margin-top: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type=text], 
+select, input[type=number], 
+textarea {
+    width: 200px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    font-family: 'garamond', serif;
+    font-size: 18px;
+    border: 1px solid #ADD8E6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  input[type=button] {
+    width: 200px;
+    font-family: 'garamond', serif;
+    font-size: 20px;
+    background-color: #F8DDA9;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  form{
+    text-size-adjust: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    margin-left: 550px;
+  }
+
+  label{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
